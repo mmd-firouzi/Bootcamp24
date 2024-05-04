@@ -1,0 +1,108 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: rgb(250, 250, 250)
+}
+
+a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+}
+
+a:hover {
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: url(https://www.bing.com/th?id=OHR.JediMonastery_ROW6503160776_1920x1080.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.headL, .headR{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+    align-content: center;
+}
+
+.headL{
+    margin-left: 120px;
+    gap: 30px;
+}
+
+
+.headR{
+    margin-right: 200px;
+    gap: 20px;
+    flex-direction: row-reverse;
+}
+
+.headBox{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    flex-direction: row-reverse;
+}
+
+svg{
+    fill: white;
+}
+
+.searchBox {
+    height: 52px;
+    width: 596px;
+    margin: 80px auto auto;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 24px;
+    display: flex;
+    gap : 5px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+    background-color: #fff; 
+    padding-right: 10px;
+    padding-left: 10px;
+    position: sticky;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+}
+
+
+.searchBar{
+    width: 470px;
+    height: 24px;
+
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+
+
+
+
